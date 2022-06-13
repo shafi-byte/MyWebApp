@@ -21,6 +21,7 @@
             <formatter type="xml" toFile="checkstyle_errors.xml"/>
         </checkstyle>
     </target>
+	
     <target name="junit" depends="compile">
         <junit printsummary="yes" haltonfailure="yes">
               <classpath>
