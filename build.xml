@@ -30,6 +30,7 @@
               </classpath>
               <test name="junit.TestCalculator" haltonfailure="no" outfile="TestCalculator_JUnitResult">
                 <formatter type="xml"/>
+		      <h1>hello</h1>
               </test>
         </junit>
     </target>
