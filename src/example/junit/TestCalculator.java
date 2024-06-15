@@ -48,7 +48,7 @@ public class TestCalculator {
 	  
 	 @Test(expected = ArithmeticException.class)
 	 public void testDivideByZero() {
-		 calc.divide(100.5, 0);
+		 calc.divid(100.5, 0);
 	 }
  
 }
